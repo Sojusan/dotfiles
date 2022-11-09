@@ -1,0 +1,95 @@
+{
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100"
+    ],
+    "python.linting.mypyArgs": [
+        "--show-column-numbers"
+    ],
+    "python.analysis.memory.keepLibraryLocalVariables": true,
+    "python.jediEnabled": false,
+    "python.analysis.memory.keepLibraryAst": true,
+    "python.languageServer": "Pylance",
+    "python.testing.pytestEnabled": true,
+    "editor.suggestSelection": "first",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.codeActionsOnSave": null,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.mouseWheelZoom": true,
+    "editor.guides.bracketPairs": true,
+    "editor.formatOnType": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.rulers": [
+        100
+    ],
+    "background.customImages": [
+        "file://C:/PATH_TO_IMAGE",
+        "file://C:/PATH_TO_IMAGE",
+        "file://C:/PATH_TO_IMAGE"
+    ],
+    "background.useDefault": false,
+    "cSpell.userWords": [
+        "chdir",
+        "dbname",
+        "devel",
+        "entrypoint",
+        "gunicorn",
+        "initdb",
+        "localtime",
+        "lxml",
+        "mkvirtualenv",
+        "noqa",
+        "numpy",
+        "pgadmin",
+        "portainer",
+        "postgres",
+        "postgresql",
+        "psycopg",
+        "pyplot",
+        "pytest",
+        "quokka",
+        "servlet",
+        "Sojusan",
+        "venv",
+        "virtualenvwrapper"
+    ],
+    "cSpell.language": "en, pl",
+    "liveshare.presence": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.html": "html",
+        "*.cu": "cpp"
+    },
+    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.wrapTabs": true,
+    "tabnine.experimentalAutoImports": true,
+    "codestream.email": "grzegorczyk1rafal@gmail.com",
+    "codestream.serverUrl": "https://api.codestream.com",
+    "backgroundCover.imagePath": "c:\\PATH_TO_IMAGE",
+    "backgroundCover.autoStatus": true,
+    "redhat.telemetry.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.NoBrowser": true,
+    "git.enableSmartCommit": true,
+    "prettier.printWidth": 100,
+    "plantuml.diagramsRoot": "uml\\",
+    "plantuml.exportFormat": "png",
+    "plantuml.jarArgs": [
+        "charset UTF-8"
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.dialogStyle": "custom",
+    "eslint.format.enable": true,
+    "shellcheck.customArgs": [
+        "-x"
+    ]
+}
