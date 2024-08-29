@@ -1,27 +1,22 @@
 #!/bin/bash
 
-GREEN="\033[0;32m"
-RED="\033[0;31m"
-PURPLE="\033[0;35m"
-CYAN="\033[0;36m"
-RESET="\033[0m"
+# ANSI escape codes for colored output
+readonly COLOR_SUCCESS="\033[0;32m"
+readonly COLOR_FAILURE="\033[0;31m"
+readonly COLOR_INFO="\033[0;36m"
+readonly COLOR_RESET="\033[0m"
 
-echo_success()
-{
-    echo -e "$GREEN $* 👍$RESET"
+# Print a success message
+print_success() {
+    echo -e "${COLOR_SUCCESS}$* 👍${COLOR_RESET}"
 }
 
-echo_failure()
-{
-    echo -e "$RED $* ❌$RESET"
+# Print a failure message
+print_failure() {
+    echo -e "${COLOR_FAILURE}$* ❌${COLOR_RESET}"
 }
 
-echo_input()
-{
-    echo -e "$PURPLE $* $RESET"
-}
-
-echo_info()
-{
-    echo -e "$CYAN $* $RESET"
+# Print an informational message
+print_info() {
+    echo -e "${COLOR_INFO}$* ${COLOR_RESET}"
 }
